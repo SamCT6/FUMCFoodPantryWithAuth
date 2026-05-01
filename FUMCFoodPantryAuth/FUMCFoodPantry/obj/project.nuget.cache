@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0q6tHp4oNUQ=",
+  "dgSpecHash": "/p+eZNTWGAk=",
   "success": true,
-  "projectFilePath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
+  "projectFilePath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
   "expectedPackageFiles": [
     "/Users/samcollier-tenison/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/samcollier-tenison/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
@@ -126,9 +126,9 @@
       "code": "NU1901",
       "level": "Warning",
       "message": "Package 'NuGet.Packaging' 6.12.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
-      "projectPath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
+      "projectPath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
       "warningLevel": 1,
-      "filePath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
+      "filePath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
       "libraryId": "NuGet.Packaging",
       "targetGraphs": [
         "net10.0"
@@ -138,9 +138,9 @@
       "code": "NU1901",
       "level": "Warning",
       "message": "Package 'NuGet.Protocol' 6.12.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
-      "projectPath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
+      "projectPath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
       "warningLevel": 1,
-      "filePath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
+      "filePath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
       "libraryId": "NuGet.Protocol",
       "targetGraphs": [
         "net10.0"

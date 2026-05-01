@@ -5895,11 +5895,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
+      "projectUniqueName": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
       "projectName": "FUMCFoodPantry",
-      "projectPath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
+      "projectPath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
       "packagesPath": "/Users/samcollier-tenison/.nuget/packages/",
-      "outputPath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryAuth/FUMCFoodPantry/obj/",
+      "outputPath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/samcollier-tenison/.nuget/NuGet/NuGet.Config"
