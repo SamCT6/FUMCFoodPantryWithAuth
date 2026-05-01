@@ -1,0 +1,303 @@
+@page
+@model FUMCFoodPantry.Pages.UserDatabase.SpanishUserApplicationModel
+
+        @{
+        ViewData["Title"] = "SpanishUserApplication";
+        }
+        
+        <h1>Formulario de solicitud</h1>
+
+            <style>
+            .appSect {
+            border-width:2px; 
+            border-style:solid; 
+            border-color: #999;
+            padding: 30px;
+            }
+            </style>
+    
+    <hr />
+    <div class="row">
+    <div>
+    <form method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">Su número de miembro</label>
+                <p style="font-size: 20px; font-weight: bold; color: #2c3e50;">@Model.UserApplications.MemberId</p>
+                <input type="hidden" asp-for="UserApplications.MemberId" />
+            </div>
+            @* <div class="form-group">
+                <span class="text-danger">*</span>
+                <label asp-for="UserApplications.Date" class="control-label">Fecha</label>
+                <input asp-for="UserApplications.Date" class="form-control" aria-required="true"/>
+                <span asp-validation-for="UserApplications.Date" class="text-danger"></span>
+            </div> *@
+            <b>1. Nombre</b>
+            <div class="mb-3 appSect">
+                <span class="text-danger">*</span>
+                <label asp-for="UserApplications.FirstName" class="control-label">Nombre de pila</label>
+                <input asp-for="UserApplications.FirstName" class="form-control" aria-required="true"/>
+                <span asp-validation-for="UserApplications.FirstName" class="text-danger"></span>
+                <label asp-for="UserApplications.MiddleName" class="control-label">Segundo nombre</label>
+                <input asp-for="UserApplications.MiddleName" class="form-control" />
+                <span asp-validation-for="UserApplications.MiddleName" class="text-danger"></span>
+                <span class="text-danger">*</span>
+                <label asp-for="UserApplications.LastName" class="control-label">Apellido</label>
+                <input asp-for="UserApplications.LastName" class="form-control" aria-required="true"/>
+                <span asp-validation-for="UserApplications.LastName" class="text-danger"></span>
+            </div>
+            <b>2. Información de dirección</b>
+            <div class="mb-3 appSect">
+                <span class="text-danger">*</span>
+                <label asp-for="UserApplications.FixedAddress" class="control-label">¿Tiene una dirección fija?</label>
+                <select asp-for="UserApplications.FixedAddress" asp-items="Model.YesOrNoOptions" class="form-control" aria-required="true">
+                <option value=""> -- Por favor, seleccione -- </option>
+                </select>
+                <span asp-validation-for="UserApplications.FixedAddress" class="text-danger"></span>
+
+                <span class="text-danger">*</span>
+                <label asp-for="UserApplications.Address" class="control-label">DIRECCIÓN</label>
+                <input asp-for="UserApplications.Address" class="form-control" aria-required="true"/>
+                <span asp-validation-for="UserApplications.Address" class="text-danger"></span>
+
+                <span class="text-danger">*</span>
+                <label asp-for="UserApplications.City" class="control-label">Ciudad</label>
+                <input asp-for="UserApplications.City" class="form-control" aria-required="true"/>
+                <span asp-validation-for="UserApplications.City" class="text-danger"></span>
+
+                <span class="text-danger">*</span>
+                <label asp-for="UserApplications.State" class="control-label">Estado</label>
+                <input asp-for="UserApplications.State" class="form-control" aria-required="true"/>
+                <span asp-validation-for="UserApplications.State" class="text-danger"></span>
+
+                <span class="text-danger">*</span>
+                <label asp-for="UserApplications.Zip" class="control-label">Código postal</label>
+                <input asp-for="UserApplications.Zip" class="form-control" aria-required="true"/>
+                <span asp-validation-for="UserApplications.Zip" class="text-danger"></span>
+
+                <span class="text-danger">*</span>
+                <label asp-for="UserApplications.County" class="control-label">Condado</label>
+                <input asp-for="UserApplications.County" class="form-control" aria-required="true"/>
+                <span asp-validation-for="UserApplications.County" class="text-danger"></span>
+            </div>
+             <b>3. Información personal</b>
+            <div class="mb-3 appSect">
+                <span class="text-danger">*</span>
+                <label asp-for="UserApplications.Phone" class="control-label">Número de teléfono</label>
+                <input asp-for="UserApplications.Phone" class="form-control" aria-required="true"/>
+                <span asp-validation-for="UserApplications.Phone" class="text-danger"></span>
+
+                <span class="text-danger">*</span>
+                <label asp-for="UserApplications.Birthday" class="control-label">Cumpleaños</label>
+                <input asp-for="UserApplications.Birthday" class="form-control" aria-required="true"/>
+                <span asp-validation-for="UserApplications.Birthday" class="text-danger"></span>
+
+                <span class="text-danger">*</span>
+                <label asp-for="UserApplications.EmploymentStatus" class="control-label">¿Cuál es su situación laboral?</label>
+                <select asp-for="UserApplications.EmploymentStatus" asp-items="Model.EmploymentOptions" class="form-control" aria-required="true">
+                <option value=""> -- Por favor, seleccione -- </option>
+                </select>
+                <span asp-validation-for="UserApplications.EmploymentStatus" class="text-danger"></span>
+
+                <span class="text-danger">*</span>
+                <label asp-for="UserApplications.HosuingStatus" class="control-label">¿Cuál es su situación de vivienda actual?</label>
+                <select asp-for="UserApplications.HosuingStatus" asp-items="Model.HousingOptions" class="form-control" aria-required="true">
+                <option value=""> -- Por favor, seleccione -- </option>
+                </select>
+                <span asp-validation-for="UserApplications.HosuingStatus" class="text-danger"></span>
+
+                <span class="text-danger">*</span>
+                <label asp-for="UserApplications.PrimaryContact" class="control-label">¿Es usted el contacto principal de su hogar?</label>
+                <select asp-for="UserApplications.PrimaryContact" asp-items="Model.YesOrNoOptions" class="form-control" aria-required="true">
+                <option value=""> -- Por favor, seleccione -- </option>
+                </select>
+                <span asp-validation-for="UserApplications.PrimaryContact" class="text-danger"></span>
+
+                <span class="text-danger">*</span>
+                <label asp-for="UserApplications.Gender" class="control-label">¿Cuál es su género? (Autoidentificado)</label>
+                <select asp-for="UserApplications.Gender" asp-items="Model.GenderOptions" class="form-control" aria-required="true">
+                <option value=""> -- Por favor, seleccione -- </option>
+                </select>
+                <span asp-validation-for="UserApplications.Gender" class="text-danger"></span>
+
+                <span class="text-danger">*</span>
+                <label asp-for="UserApplications.Race" class="control-label">¿Cuál es tu raza? (Selecciona todas las que correspondan)</label>
+                @foreach (var category in Model.AvailableRaces)
+                {<input type="checkbox" name="SelectedRaces" value="@category" /> 
+                 <label>@category</label>}
+                <span asp-validation-for="UserApplications.Race" class="text-danger"></span>
+            </div>
+                <b>4. Información del hogar</b>
+            <div class="mb-3 appSect">
+                <label asp-for="UserApplications.Household" class="control-label">Seleccione todo lo que se aplique a su hogar.</label>
+                @foreach (var category in Model.AvailableHousehold)
+                {<input type="checkbox" name="SelectedHousehold" value="@category" /> 
+                 <label>@category</label>}
+                <span asp-validation-for="UserApplications.Household" class="text-danger"></span>
+
+                
+                <label asp-for="UserApplications.Disability" class="control-label">¿Alguna persona de su hogar, incluido usted, tiene una discapacidad que le impida aceptar cualquier tipo de trabajo durante los próximos 6 meses?</label>
+                <span class="text-danger">*</span>
+                <select asp-for="UserApplications.Disability" asp-items="Model.YesOrNoOptions" class="form-control" aria-required="true">
+                <option value=""> -- Por favor, seleccione -- </option>
+                </select>
+                <span asp-validation-for="UserApplications.Disability" class="text-danger"></span>
+
+                <span class="text-danger">*</span>
+                <label asp-for="UserApplications.Military" class="control-label">¿Hay alguien en su hogar que sea militar en activo?</label>
+                <select asp-for="UserApplications.Military" asp-items="Model.YesOrNoOptions" class="form-control" aria-required="true">
+                <option value=""> -- Por favor, seleccione -- </option>
+                </select>
+                <span asp-validation-for="UserApplications.Military" class="text-danger"></span>
+
+                <span class="text-danger">*</span>
+                <label asp-for="UserApplications.Vetran" class="control-label">¿Hay algún veterano en su hogar?</label>
+                <select asp-for="UserApplications.Vetran" asp-items="Model.YesOrNoOptions" class="form-control" aria-required="true">
+                <option value=""> -- Por favor, seleccione -- </option>
+                </select>
+                <span asp-validation-for="UserApplications.Vetran" class="text-danger"></span>
+
+                <span class="text-danger">*</span>
+                <label asp-for="UserApplications.Snap" class="control-label">¿Alguna persona de su hogar recibe SNAP (cupones de alimentos)?</label>
+                <select asp-for="UserApplications.Snap" asp-items="Model.YesOrNoOptions" class="form-control" aria-required="true">
+                <option value=""> -- Por favor, seleccione -- </option>
+                </select>
+                <span asp-validation-for="UserApplications.Snap" class="text-danger"></span>
+                <b>Por favor, enumere a todos los miembros que residen en el hogar (excluyéndose a usted mismo).</b>
+                <div class="mb-3">
+                <label asp-for="UserApplications.Family1Name" class="control-label">Nombre del familiar 1</label>
+                <input asp-for="UserApplications.Family1Name" class="form-control" />
+                <span asp-validation-for="UserApplications.Family1Name" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family1Birthday" class="control-label">Cumpleaños del familiar 1</label>
+                <input asp-for="UserApplications.Family1Birthday" class="form-control" />
+                <span asp-validation-for="UserApplications.Family1Birthday" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family1Ethnicity" class="control-label">Etnia del familiar 1</label>
+                <input asp-for="UserApplications.Family1Ethnicity" class="form-control" />
+                <span asp-validation-for="UserApplications.Family1Ethnicity" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family1Gender" class="control-label">Género del familiar 1</label>
+                <input asp-for="UserApplications.Family1Gender" class="form-control" />
+                <span asp-validation-for="UserApplications.Family1Gender" class="text-danger"></span>
+                <label asp-for="UserApplications.Family1Relationship" class="control-label">Familiar 1: Parentesco con usted</label>
+                <input asp-for="UserApplications.Family1Relationship" class="form-control" />
+                <span asp-validation-for="UserApplications.Family1Relationship" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family1Income" class="control-label">Ingresos del familiar 1</label>
+                <input asp-for="UserApplications.Family1Income" class="form-control" />
+                <span asp-validation-for="UserApplications.Family1Income" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                <label asp-for="UserApplications.Family2Name" class="control-label">Nombre del familiar 2</label>
+                <input asp-for="UserApplications.Family2Name" class="form-control" />
+                <span asp-validation-for="UserApplications.Family2Name" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family2Birthday" class="control-label">Cumpleaños del familiar 2</label>
+                <input asp-for="UserApplications.Family2Birthday" class="form-control" />
+                <span asp-validation-for="UserApplications.Family2Birthday" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family2Ethnicity" class="control-label">Etnia del familiar 2</label>
+                <input asp-for="UserApplications.Family2Ethnicity" class="form-control" />
+                <span asp-validation-for="UserApplications.Family2Ethnicity" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family2Gender" class="control-label">Género del familiar 2</label>
+                <input asp-for="UserApplications.Family2Gender" class="form-control" />
+                <span asp-validation-for="UserApplications.Family2Gender" class="text-danger"></span>
+                <label asp-for="UserApplications.Family2Relationship" class="control-label">Familiar 2: Parentesco con usted</label>
+                <input asp-for="UserApplications.Family2Relationship" class="form-control" />
+                <span asp-validation-for="UserApplications.Family2Relationship" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family2Income" class="control-label">Ingresos del familiar 2</label>
+                <input asp-for="UserApplications.Family2Income" class="form-control" />
+                <span asp-validation-for="UserApplications.Family2Income" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                <label asp-for="UserApplications.Family3Name" class="control-label">Nombre del familiar 3</label>
+                <input asp-for="UserApplications.Family3Name" class="form-control" />
+                <span asp-validation-for="UserApplications.Family3Name" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family3Birthday" class="control-label">Cumpleaños del familiar 3</label>
+                <input asp-for="UserApplications.Family3Birthday" class="form-control" />
+                <span asp-validation-for="UserApplications.Family3Birthday" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family3Ethnicity" class="control-label">Etnia del familiar 3</label>
+                <input asp-for="UserApplications.Family3Ethnicity" class="form-control" />
+                <span asp-validation-for="UserApplications.Family3Ethnicity" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family3Gender" class="control-label">Género del familiar 3</label>
+                <input asp-for="UserApplications.Family3Gender" class="form-control" />
+                <span asp-validation-for="UserApplications.Family3Gender" class="text-danger"></span>
+                <label asp-for="UserApplications.Family3Relationship" class="control-label">Familiar 3: Parentesco con usted</label>
+                <input asp-for="UserApplications.Family3Relationship" class="form-control" />
+                <span asp-validation-for="UserApplications.Family3Relationship" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family3Income" class="control-label">Ingresos del familiar 3</label>
+                <input asp-for="UserApplications.Family3Income" class="form-control" />
+                <span asp-validation-for="UserApplications.Family3Income" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                <label asp-for="UserApplications.Family4Name" class="control-label">Nombre del familiar 4</label>
+                <input asp-for="UserApplications.Family4Name" class="form-control" />
+                <span asp-validation-for="UserApplications.Family4Name" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family4Birthday" class="control-label">Cumpleaños del familiar 4</label>
+                <input asp-for="UserApplications.Family4Birthday" class="form-control" />
+                <span asp-validation-for="UserApplications.Family4Birthday" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family4Ethnicity" class="control-label">Etnia del familiar 4</label>
+                <input asp-for="UserApplications.Family4Ethnicity" class="form-control" />
+                <span asp-validation-for="UserApplications.Family4Ethnicity" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family4Gender" class="control-label">Género del familiar 4</label>
+                <input asp-for="UserApplications.Family4Gender" class="form-control" />
+                <span asp-validation-for="UserApplications.Family4Gender" class="text-danger"></span>
+                <label asp-for="UserApplications.Family4Relationship" class="control-label">Familiar 4: Parentesco con usted</label>
+                <input asp-for="UserApplications.Family4Relationship" class="form-control" />
+                <span asp-validation-for="UserApplications.Family4Relationship" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family4Income" class="control-label">Ingresos del familiar 4</label>
+                <input asp-for="UserApplications.Family4Income" class="form-control" />
+                <span asp-validation-for="UserApplications.Family4Income" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                <label asp-for="UserApplications.Family5Name" class="control-label">Nombre del familiar 5</label>
+                <input asp-for="UserApplications.Family5Name" class="form-control" />
+                <span asp-validation-for="UserApplications.Family5Name" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family5Birthday" class="control-label">Cumpleaños del familiar 5</label>
+                <input asp-for="UserApplications.Family5Birthday" class="form-control" />
+                <span asp-validation-for="UserApplications.Family5Birthday" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family5Ethnicity" class="control-label">Etnia del familiar 5</label>
+                <input asp-for="UserApplications.Family5Ethnicity" class="form-control" />
+                <span asp-validation-for="UserApplications.Family5Ethnicity" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family5Gender" class="control-label">Género del familiar 5</label>
+                <input asp-for="UserApplications.Family5Gender" class="form-control" />
+                <span asp-validation-for="UserApplications.Family5Gender" class="text-danger"></span>
+                <label asp-for="UserApplications.Family5Relationship" class="control-label">Familiar 5: Parentesco con usted</label>
+                <input asp-for="UserApplications.Family5Relationship" class="form-control" />
+                <span asp-validation-for="UserApplications.Family5Relationship" class="text-danger"></span>
+
+                <label asp-for="UserApplications.Family5Income" class="control-label">Ingresos del familiar 5</label>
+                <input asp-for="UserApplications.Family5Income" class="form-control" />
+                <span asp-validation-for="UserApplications.Family5Income" class="text-danger"></span>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

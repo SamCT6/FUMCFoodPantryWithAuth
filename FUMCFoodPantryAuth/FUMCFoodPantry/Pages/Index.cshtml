@@ -1,0 +1,71 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <img src="~/images/FoodPantryLogo.jpg" alt="Food Pantry Logo" height="250" />
+</div>
+
+<div>
+    <h2>Who We Are</h2>
+    <p>
+        In keeping with our calling to serve God and our neighbors, the Feeding Ministries of the First United Methodist Church of Conway, Arkansas, strive to provide food to those persons who are in need.
+
+   
+    </p>
+<!--Cards-->
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body mb-4">
+                            <h2 class="card-title text-center">Check In</h2>
+                            <p class="card-text">Picking up food at our drive-thru? Check in here to make the process go faster.</p>
+                        </div>
+                        <div class="text-center mb-3"><a class="btn btn-primary btn-md" asp-page="/CheckIn">Check In</a></div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body mb-4">
+                            <h2 class="card-title text-center">What We've Got</h2>
+                            <p class="card-text">Curious about your options? Click here to see what's on the menu this week.</p>
+                        </div>
+                        <div class="text-center mb-3"><a class="btn btn-primary btn-md" asp-page="/PublicInventory/Index">See What We Have</a></div>
+                    </div>
+                </div>
+            </div>
+
+<!--Location-->
+<div class="row gx-4 gx-lg-5 align-items-center my-5">
+                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="~/images/location.jpg" alt="FUMC building" /></div>
+                <div class="col-lg-5">
+                    <h1 class="font-weight-light">Location</h1>
+                    <p>We are located at 1610 Prince St in Conway, AR.</p>
+                </div>
+            </div>
+
+    <h3>Hours of Operation</h3>
+    <p>
+        Our food pantry is open every week beginning at 4:30pm.
+        <ul>
+            <li>
+                The 1st, 3rd & 5th Thursdays of each month our food pantry distributes all food drive through style (4:30-5:30pm).
+            </li>
+            <li>
+                The 2nd and 4th Thursdays of the month is our Amazing Grace Cafe. Guests are invited into the Fellowship Hall to pick their own food items and share a meal together (4:30-5:30p). Drive through is not available this week.
+            </li>
+            <li>
+                Our food pantry is open for individuals and households to receive food every week as needed. Registration and photo identification are required.
+            </li>
+        </ul>
+
+    </p>
+    <h4>Find out more <a href="https://conwayfumc.org/">here</a></h4>
+
+
+
+
+</div>

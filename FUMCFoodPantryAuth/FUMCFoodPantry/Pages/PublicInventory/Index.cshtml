@@ -1,0 +1,29 @@
+@page
+@model FUMCFoodPantry.Pages.PublicInventory.IndexModel
+
+@{
+    ViewData["Title"] = "Pantry Inventory";
+}
+
+<h4>Available Pantry Items</h4>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Available</th>
+            <th>Rating</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Stock)
+{
+        <tr>
+            <td>@item.Item</td>
+            <td>@item.Quantity</td>
+            <td>@item.AverageRating</td>
+            <td><button class="btn btn-danger btn-sm">Rate</button></td>
+        </tr>
+}
+    </tbody>
+</table>

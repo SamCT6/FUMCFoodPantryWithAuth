@@ -1,0 +1,337 @@
+@page
+@model FUMCFoodPantry.Pages.UserDatabase.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>UserApplications</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.MemberId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.MemberId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Date)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.FirstName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.FirstName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.MiddleName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.MiddleName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.LastName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.LastName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Address)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Address)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.FixedAddress)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.FixedAddress)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.City)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.City)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.State)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.State)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Zip)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Zip)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.County)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.County)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Phone)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Phone)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Birthday)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Birthday)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.EmploymentStatus)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.EmploymentStatus)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.HosuingStatus)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.HosuingStatus)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.PrimaryContact)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.PrimaryContact)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Gender)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Gender)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Race)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Race)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Household)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Household)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Disability)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Disability)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Military)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Military)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Vetran)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Vetran)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Snap)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Snap)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family1Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family1Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family1Birthday)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family1Birthday)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family1Ethnicity)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family1Ethnicity)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family1Gender)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family1Gender)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family1Relationship)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family1Relationship)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family1Income)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family1Income)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family2Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family2Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family2Birthday)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family2Birthday)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family2Ethnicity)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family2Ethnicity)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family2Gender)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family2Gender)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family2Relationship)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family2Relationship)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family2Income)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family2Income)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family3Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family3Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family3Birthday)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family3Birthday)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family3Ethnicity)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family3Ethnicity)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family3Gender)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family3Gender)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family3Relationship)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family3Relationship)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family3Income)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family3Income)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family4Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family4Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family4Birthday)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family4Birthday)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family4Ethnicity)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family4Ethnicity)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family4Gender)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family4Gender)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family4Relationship)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family4Relationship)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family4Income)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family4Income)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family5Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family5Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family5Birthday)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family5Birthday)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family5Ethnicity)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family5Ethnicity)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family5Gender)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family5Gender)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family5Relationship)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family5Relationship)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserApplications.Family5Income)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserApplications.Family5Income)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.UserApplications.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
