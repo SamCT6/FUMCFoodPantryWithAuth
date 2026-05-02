@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace FUMCFoodPantry.Pages;
 
-[Authorize]
+[Authorize(Roles = "Admin")]
 
 public class AdminHomeModel : PageModel
 {
