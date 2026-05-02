@@ -1,24 +1,17 @@
 using System.ComponentModel.DataAnnotations;
-using FUMCFoodPantry.Models.Enums;
 
-public class User
+namespace Identity.Models
 {
-    public int Id { get; set; }
+    public class User
+    {
+        [Required]
+        public string Name { get; set; }
 
-    [Required]
-    public string FirstName { get; set; }
+        [Required]
+        [RegularExpression("^[a-zA-Z0-9_\\.-]+@([a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,6}$", ErrorMessage = "E-mail is not valid")]
+        public string Email { get; set; }
 
-    [Required]
-    public string LastName { get; set; }
-
-    public string? MiddleName { get; set; }
-
-    [Required]
-    public UserRole Role { get; set; }
-
-    public DateTime DateJoined { get; set; }
-
-
-    public string AdditionalInformation {get; set; }
-    
+        [Required]
+        public string Password { get; set; }
+    }
 }
