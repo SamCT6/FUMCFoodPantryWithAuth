@@ -82,35 +82,36 @@ namespace FUMCFoodPantry.Pages.UserDatabase
         public List<SelectListItem> DisabilityOptions { get; set; }
         public List<SelectListItem> MilOptions { get; set; }
 
-        public List<string> SelectedRace { get; set; } = new();
-
+        [BindProperty]
+        public List<string> SelectedRaces { get; set; } = new();
         public List<string> AvailableRaces { get; set; } = new() { "White", "Black or African American", "Asian", "Hispanic, Latino, or Spanish", "Native American of Alaska Native", "Middle Eastern or North Africa", "Marshallese", "Native Hawaiian/Other Pacific", "Other Race or Ethnicity", "Prefer Not To Say"};
 
+        [BindProperty]
         public List<string> SelectedHousehold { get; set; } = new();
 
         public List<string> AvailableHousehold { get; set; } = new() { "Single Parent", "Adult Living Alone", "Disabled Household", "Milti-Generational Household"};
 
         public async Task<IActionResult> OnPostAsync()
-{
+            {
 
-    UserApplications.Race = string.Join(", ", SelectedRace);
-    UserApplications.Household = string.Join(", ", SelectedHousehold);
+                UserApplications.Race = string.Join(", ", SelectedRaces);
+                UserApplications.Household = string.Join(", ", SelectedHousehold);
 
 
-    ModelState.Remove("UserApplications.Race");
-    ModelState.Remove("UserApplications.Household");
+                ModelState.Remove("UserApplications.Race");
+                ModelState.Remove("UserApplications.Household");
 
-    
+                
 
-    if (!ModelState.IsValid)
-    {
+                if (!ModelState.IsValid)
+                {
 
-        return Page();
-    }
+                    return Page();
+                }
 
-    _context.UserApplications.Add(UserApplications);
-    await _context.SaveChangesAsync();
-    return RedirectToPage("/Index");
-}
+                _context.UserApplications.Add(UserApplications);
+                await _context.SaveChangesAsync();
+                return RedirectToPage("/Index");
+            }
     }
 }

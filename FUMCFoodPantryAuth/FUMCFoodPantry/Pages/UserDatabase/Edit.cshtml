@@ -117,16 +117,26 @@
                 <span class="text-danger">*</span>
                 <label asp-for="UserApplications.Race" class="control-label">What is your race? (Choose all that apply)</label>
                 @foreach (var category in Model.AvailableRaces)
-                {<input type="checkbox" name="SelectedRaces" value="@category" /> 
-                 <label>@category</label>}
+                    {
+                        <input type="checkbox" 
+                            name="SelectedRaces" 
+                            value="@category" 
+                            @(Model.SelectedRaces.Contains(category) ? "checked" : "") /> 
+                        <label>@category</label>
+                    }
                 <span asp-validation-for="UserApplications.Race" class="text-danger"></span>
             </div>
                 <b>4. Household Information</b>
             <div class="mb-3 appSect">
                 <label asp-for="UserApplications.Household" class="control-label">Select all that apply to your household.</label>
                 @foreach (var category in Model.AvailableHousehold)
-                {<input type="checkbox" name="SelectedHousehold" value="@category" /> 
-                 <label>@category</label>}
+                    {
+                        <input type="checkbox" 
+                            name="SelectedHousehold" 
+                            value="@category" 
+                            @(Model.SelectedHousehold.Contains(category) ? "checked" : "") /> 
+                        <label>@category</label>
+                    }
                 <span asp-validation-for="UserApplications.Household" class="text-danger"></span>
 
                 <span class="text-danger">*</span>
