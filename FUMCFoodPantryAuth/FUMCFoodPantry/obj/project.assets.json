@@ -5895,11 +5895,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\FUMCFoodPantry.csproj",
+      "projectUniqueName": "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\FUMCFoodPantry.csproj",
       "projectName": "FUMCFoodPantry",
-      "projectPath": "C:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\FUMCFoodPantry.csproj",
+      "projectPath": "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\FUMCFoodPantry.csproj",
       "packagesPath": "C:\\Users\\westb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\obj\\",
+      "outputPath": "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\westb\\AppData\\Roaming\\NuGet\\NuGet.Config"
