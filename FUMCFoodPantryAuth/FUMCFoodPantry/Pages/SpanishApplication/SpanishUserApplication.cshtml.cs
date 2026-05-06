@@ -81,11 +81,11 @@ namespace FUMCFoodPantry.Pages.UserDatabase
         public List<SelectListItem> GenderOptions { get; set; }
         public List<SelectListItem> DisabilityOptions { get; set; }
         public List<SelectListItem> MilOptions { get; set; }
-
-        public List<string> SelectedRace { get; set; } = new();
+        [BindProperty]
+        public List<string> SelectedRaces { get; set; } = new();
 
         public List<string> AvailableRaces { get; set; } = new() { "Blanco", "Negro o afroamericano", "Asiático", "Hispano, latino o de origen español", "Nativo americano o nativo de Alaska", "De Oriente Medio o del norte de África", "Marshallés", "Nativo hawaiano u otro isleño del Pacífico", "Otra raza o etnia", "Prefiero no decirlo"};
-
+        [BindProperty]
         public List<string> SelectedHousehold { get; set; } = new();
 
         public List<string> AvailableHousehold { get; set; } = new() { "Padre o madre soltero/a", "Adulto que vive solo", "Hogar discapacitado", "Hogar multigeneracional"};
@@ -93,7 +93,7 @@ namespace FUMCFoodPantry.Pages.UserDatabase
         public async Task<IActionResult> OnPostAsync()
 {
 
-    UserApplications.Race = string.Join(", ", SelectedRace);
+    UserApplications.Race = string.Join(", ", SelectedRaces);
     UserApplications.Household = string.Join(", ", SelectedHousehold);
 
 
