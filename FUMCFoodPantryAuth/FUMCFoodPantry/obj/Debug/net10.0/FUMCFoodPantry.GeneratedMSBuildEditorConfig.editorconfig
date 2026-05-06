@@ -19,197 +19,197 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
 build_property.RootNamespace = FUMCFoodPantry
 build_property.RootNamespace = FUMCFoodPantry
-build_property.ProjectDir = /Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/
+build_property.ProjectDir = C:\Users\westb\OneDrive - Hendrix College\Desktop\Databases&Web Systems\FinalProject\FUMCFoodPantryWithAuth\FUMCFoodPantryAuth\FUMCFoodPantry\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry
+build_property.MSBuildProjectDirectory = C:\Users\westb\OneDrive - Hendrix College\Desktop\Databases&Web Systems\FinalProject\FUMCFoodPantryWithAuth\FUMCFoodPantryAuth\FUMCFoodPantry
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Areas/Identity/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/AdminHome.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRtaW5Ib21lLmNzaHRtbA==
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/AdminHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5Ib21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Application/UserApplication.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXBwbGljYXRpb24vVXNlckFwcGxpY2F0aW9uLmNzaHRtbA==
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Application/UserApplication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwbGljYXRpb25cVXNlckFwcGxpY2F0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/CheckIn.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hlY2tJbi5jc2h0bWw=
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/CheckIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tJbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/CommunityLogIn.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tbXVuaXR5TG9nSW4uY3NodG1s
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/CommunityLogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbXVuaXR5TG9nSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/EditBox.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRWRpdEJveC5jc2h0bWw=
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/EditBox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEJveC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/InLine.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5MaW5lLmNzaHRtbA==
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/InLine.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5MaW5lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Inventory/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW52ZW50b3J5L0NyZWF0ZS5jc2h0bWw=
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Inventory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50b3J5XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Inventory/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW52ZW50b3J5L0RlbGV0ZS5jc2h0bWw=
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Inventory/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50b3J5XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Inventory/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW52ZW50b3J5L0RldGFpbHMuY3NodG1s
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Inventory/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50b3J5XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Inventory/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW52ZW50b3J5L0VkaXQuY3NodG1s
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Inventory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50b3J5XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Inventory/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW52ZW50b3J5L0luZGV4LmNzaHRtbA==
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Inventory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50b3J5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/NewUserPage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTmV3VXNlclBhZ2UuY3NodG1s
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/NewUserPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3VXNlclBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/OrderPage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3JkZXJQYWdlLmNzaHRtbA==
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/OrderPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/PublicInventory/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHVibGljSW52ZW50b3J5L0luZGV4LmNzaHRtbA==
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/PublicInventory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHVibGljSW52ZW50b3J5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Resources.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVzb3VyY2VzLmNzaHRtbA==
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Resources.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzb3VyY2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/SignIn.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2lnbkluLmNzaHRtbA==
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbkluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/SpanishApplication/SpanishUserApplication.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3BhbmlzaEFwcGxpY2F0aW9uL1NwYW5pc2hVc2VyQXBwbGljYXRpb24uY3NodG1s
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/SpanishApplication/SpanishUserApplication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BhbmlzaEFwcGxpY2F0aW9uXFNwYW5pc2hVc2VyQXBwbGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/StaffLogIn.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RhZmZMb2dJbi5jc2h0bWw=
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/StaffLogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZMb2dJbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/UserDatabase/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlckRhdGFiYXNlL0NyZWF0ZS5jc2h0bWw=
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/UserDatabase/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckRhdGFiYXNlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/UserDatabase/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlckRhdGFiYXNlL0RlbGV0ZS5jc2h0bWw=
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/UserDatabase/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckRhdGFiYXNlXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/UserDatabase/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlckRhdGFiYXNlL0RldGFpbHMuY3NodG1s
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/UserDatabase/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckRhdGFiYXNlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/UserDatabase/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlckRhdGFiYXNlL0VkaXQuY3NodG1s
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/UserDatabase/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckRhdGFiYXNlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/UserDatabase/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlckRhdGFiYXNlL0luZGV4LmNzaHRtbA==
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/UserDatabase/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckRhdGFiYXNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Admin/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ3JlYXRlLmNzaHRtbA==
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Admin/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Admin/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vVXBkYXRlLmNzaHRtbA==
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Admin/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Role/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9DcmVhdGUuY3NodG1s
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Role/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9JbmRleC5jc2h0bWw=
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Role/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9VcGRhdGUuY3NodG1s
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Role/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Shared/_LoginPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-xc6mni4189
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8m1bjuzn9j
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-ec478nmmgs
+[C:/Users/westb/OneDrive - Hendrix College/Desktop/Databases&Web Systems/FinalProject/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gi3zqg1jcw
