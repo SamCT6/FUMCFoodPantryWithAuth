@@ -10,4 +10,7 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
 {
     public DbSet<UserApplications> UserApplications { get; set; } = default!;
     public DbSet<Stock> Stock { get; set; } = default!;
+
+    public DbSet<OrderForm> OrderForm { get; set; } = default!;
+
 }

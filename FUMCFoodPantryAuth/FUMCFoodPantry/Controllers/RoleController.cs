@@ -42,15 +42,18 @@ namespace Identity.Controllers
             return View(name);
         }
         public async Task<IActionResult> Update(string id)
-        {
+{
             IdentityRole role = await roleManager.FindByIdAsync(id);
             List<AppUser> members = new List<AppUser>();
             List<AppUser> nonMembers = new List<AppUser>();
-            foreach (AppUser user in userManager.Users)
+
+            foreach (AppUser user in userManager.Users.ToList())
             {
+            
                 var list = await userManager.IsInRoleAsync(user, role.Name) ? members : nonMembers;
                 list.Add(user);
             }
+
             return View(new RoleEdit
             {
                 Role = role,

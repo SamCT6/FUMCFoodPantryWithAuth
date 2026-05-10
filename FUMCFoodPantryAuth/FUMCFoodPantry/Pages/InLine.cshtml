@@ -20,11 +20,13 @@
 <div class="col text-center p-3">
   <p>A volunteer is working hard to put your order together.</p>
   <h4>Your Number Is:</h4>
-  <h4>(ID #)</h4>
+  <h4 class="text-primary">#@Model.Order.Id</h4> 
+  
   <p>Show this screen to the volunteer when they come to your window.</p>
+  <hr />
   <p>Order Information:</p>
-  <p>(#x Box 1)</p>
-  <p>(#x Box 2)</p>
+  <p><strong>@Model.Order.Box1</strong> x Box 1</p>
+  <p><strong>@Model.Order.Box2</strong> x Box 2</p>
 </div>
 
 
