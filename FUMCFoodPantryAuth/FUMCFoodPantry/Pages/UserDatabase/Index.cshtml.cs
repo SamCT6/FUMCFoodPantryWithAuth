@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace FUMCFoodPantry.Pages.UserDatabase
 {
-    [Authorize]
+    [Authorize(Roles = "Admin, Volunteer")]
     public class IndexModel : PageModel
     {
         private readonly FUMCFoodPantry.Data.ApplicationDbContext _context;
