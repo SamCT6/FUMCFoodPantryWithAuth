@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-transparent border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 
                 <a class="navbar-brand" asp-area="" asp-page="/Index"><img src="~/images/LoveGrowsHereLogo.png" alt="Food Pantry Logo" height="80" /></a>
@@ -49,14 +49,14 @@
             </div>
         </nav>
     </header>
-    @RenderSection("Hero", required: false)
-    <div class="container">
+    
+
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
-    </div>
 
-    <footer class="border-top footer text-muted">
+
+    <footer class="border-top footer text-white">
         <div class="container">
             &copy; 2026 - FUMCFoodPantry - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
