@@ -25,7 +25,12 @@
                     <div class="card h-100">
                         <div class="card-body mb-4">
                             <h5 class="card-title text-center">Box 1</h5>
-                            <p class="card-text">(Main box info goes here)</p>
+                            <p class="card-text">
+                                @foreach(var item in Model.MainBoxItems)
+                                {
+                                    <span>@item.ItemName</span><br />
+                                }
+                            </p>
                             <div class="card-footer text-center">
                                 <p>Select Amount:</p>
                                 <input type="number" style="margin-left: 10px; height: 30px; width: 30px;"> 
@@ -38,7 +43,12 @@
                     <div class="card h-100">
                         <div class="card-body mb-4">
                             <h5 class="card-title text-center">Box 2</h5>
-                            <p class="card-text">(Alternative box info goes here)</p>
+                            <p class="card-text">
+                                @foreach(var item in Model.AltBoxItems)
+                                {
+                                    <span>@item.ItemName</span><br />
+                                }
+                            </p>
                             <div class="card-footer text-center">
                                 <p>Select Amount:</p>
                                 <input type="number" style="margin-left: 10px; height: 30px; width: 30px;"> 

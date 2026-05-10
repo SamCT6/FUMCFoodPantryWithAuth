@@ -13,4 +13,5 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
 
     public DbSet<OrderForm> OrderForm { get; set; } = default!;
 
+    public DbSet<BoxContent> BoxContents { get; set; } = default!;
 }

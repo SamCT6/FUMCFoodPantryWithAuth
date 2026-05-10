@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using FUMCFoodPantry.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace FUMCFoodPantry.Pages.SubmittedOrders
 {
@@ -18,10 +19,16 @@ namespace FUMCFoodPantry.Pages.SubmittedOrders
             _context = context;
         }
 
-        public IActionResult OnGet()
+        public List<BoxContent> MainBoxItems { get; set; }
+        public List<BoxContent> AltBoxItems { get; set; }
+
+        public async Task OnGetAsync()
         {
-            return Page();
-        }
+        var allItems = await _context.BoxContents.ToListAsync();
+        MainBoxItems = allItems.Where(i => i.BoxType == "Main").ToList();
+        AltBoxItems = allItems.Where(i => i.BoxType == "Alternative").ToList();
+         }
+
 
         [BindProperty]
         public OrderForm OrderForm { get; set; } = default!;
