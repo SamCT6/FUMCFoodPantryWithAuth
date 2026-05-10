@@ -5,6 +5,7 @@
         ViewData["Title"] = "Create";
         }
         
+    <div class="text-center">
         <h1>Application Form</h1>
 
             <style>
@@ -17,9 +18,10 @@
             </style>
     
 
-    <h5>Haga clic <a asp-page="/SpanishApplication/SpanishUserApplication">aquí</a> para el formulario en español.</h5>
+        <h5>Haga clic <a asp-page="/SpanishApplication/SpanishUserApplication">aquí</a> para el formulario en español.</h5>
+    </div>
     <hr />
-    <div class="row">
+    <div class="row px-5">
     <div>
     <form method="post">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -300,7 +302,7 @@
 </div>
 
 <div>
-    <a asp-page="Index">Back to List</a>
+    <a asp-page="Index">Back to Home</a>
 </div>
 
 @section Scripts {

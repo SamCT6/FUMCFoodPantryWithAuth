@@ -5,6 +5,7 @@
         ViewData["Title"] = "SpanishUserApplication";
         }
         
+        <div class="text-center">
         <h1>Formulario de solicitud</h1>
 
             <style>
@@ -15,9 +16,11 @@
             padding: 30px;
             }
             </style>
-    
+
+            <h5>Click <a asp-page="/Application/UserApplication">here</a> for the application form in English.</h5>
+        </div>
     <hr />
-    <div class="row">
+    <div class="row px-5">
     <div>
     <form method="post">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -295,7 +298,7 @@
 </div>
 
 <div>
-    <a asp-page="Index">Back to List</a>
+    <a asp-page="Index">Back to Home</a>
 </div>
 
 @section Scripts {
