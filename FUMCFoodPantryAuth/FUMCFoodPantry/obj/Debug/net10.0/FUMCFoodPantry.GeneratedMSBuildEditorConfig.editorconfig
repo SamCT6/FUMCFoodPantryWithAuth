@@ -42,10 +42,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXBwbGljYXRpb24vVXNlckFwcGxpY2F0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/CheckIn.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hlY2tJbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/CommunityLogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tbXVuaXR5TG9nSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -88,10 +84,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/NewUserPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTmV3VXNlclBhZ2UuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/OrderPage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3JkZXJQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Privacy.cshtml]
