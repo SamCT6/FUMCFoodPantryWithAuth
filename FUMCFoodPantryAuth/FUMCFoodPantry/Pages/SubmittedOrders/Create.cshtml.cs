@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using FUMCFoodPantry.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FUMCFoodPantry.Pages.SubmittedOrders
 {
+    [Authorize(Roles = "Admin, Volunteer, Community Member")]
     public class CreateModel : PageModel
     {
         private readonly FUMCFoodPantry.Data.ApplicationDbContext _context;
