@@ -5890,19 +5890,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/samcollier-tenison/.nuget/packages/": {}
+    "C:\\Users\\fadek\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
+      "projectUniqueName": "C:\\Users\\fadek\\csci340\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\FUMCFoodPantry.csproj",
       "projectName": "FUMCFoodPantry",
-      "projectPath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
-      "packagesPath": "/Users/samcollier-tenison/.nuget/packages/",
-      "outputPath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/obj/",
+      "projectPath": "C:\\Users\\fadek\\csci340\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\FUMCFoodPantry.csproj",
+      "packagesPath": "C:\\Users\\fadek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fadek\\csci340\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/samcollier-tenison/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\fadek\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -5976,7 +5976,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
