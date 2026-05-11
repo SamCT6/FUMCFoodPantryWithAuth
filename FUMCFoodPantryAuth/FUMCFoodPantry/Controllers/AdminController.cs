@@ -30,7 +30,8 @@ public async Task<IActionResult> Create(User user)
     {
         AppUser appUser = new AppUser
         {
-            UserName = user.Name,
+            UserName = user.Email,
+            Name = user.Name,
             Email = user.Email
         };
 
@@ -62,34 +63,42 @@ public async Task<IActionResult> Create(User user)
         }
  
         [HttpPost]
-        public async Task<IActionResult> Update(string id, string email, string password)
+public async Task<IActionResult> Update(string id, string email, string password, string name)
+{
+    AppUser user = await userManager.FindByIdAsync(id);
+
+    if (user != null)
+    {
+        if (!string.IsNullOrEmpty(email))
         {
-            AppUser user = await userManager.FindByIdAsync(id);
-            if (user != null)
-            {
-                if (!string.IsNullOrEmpty(email))
-                    user.Email = email;
-                else
-                    ModelState.AddModelError("", "Email cannot be empty");
- 
-                if (!string.IsNullOrEmpty(password))
-                    user.PasswordHash = passwordHasher.HashPassword(user, password);
-                else
-                    ModelState.AddModelError("", "Password cannot be empty");
- 
-                if (!string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(password))
-                {
-                    IdentityResult result = await userManager.UpdateAsync(user);
-                    if (result.Succeeded)
-                        return RedirectToAction("Index");
-                    else
-                        Errors(result);
-                }
-            }
-            else
-                ModelState.AddModelError("", "User Not Found");
-            return View(user);
+            user.Email = email;
+            user.UserName = email;
         }
+
+        if (!string.IsNullOrEmpty(name))
+        {
+            user.Name = name;
+        }
+
+        if (!string.IsNullOrEmpty(password))
+        {
+            user.PasswordHash = passwordHasher.HashPassword(user, password);
+        }
+
+        IdentityResult result = await userManager.UpdateAsync(user);
+
+        if (result.Succeeded)
+            return RedirectToAction("Index");
+        else
+            Errors(result);
+    }
+    else
+    {
+        ModelState.AddModelError("", "User Not Found");
+    }
+
+    return View(user);
+}
  
         private void Errors(IdentityResult result)
         {
