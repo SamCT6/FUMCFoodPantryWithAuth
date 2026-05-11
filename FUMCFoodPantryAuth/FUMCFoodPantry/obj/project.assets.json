@@ -5890,25 +5890,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\westb\\.nuget\\packages\\": {}
-=======
     "/Users/samcollier-tenison/.nuget/packages/": {}
->>>>>>> origin/main
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\FUMCFoodPantry.csproj",
-      "projectName": "FUMCFoodPantry",
-      "projectPath": "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\FUMCFoodPantry.csproj",
-      "packagesPath": "C:\\Users\\westb\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\westb\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
       "projectUniqueName": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
       "projectName": "FUMCFoodPantry",
       "projectPath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
@@ -5917,7 +5903,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/samcollier-tenison/.nuget/NuGet/NuGet.Config"
->>>>>>> origin/main
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -6410,6 +6395,12 @@
     }
   },
   "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/obj/project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0."
+    },
     {
       "code": "NU1901",
       "level": "Warning",

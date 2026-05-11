@@ -109,7 +109,7 @@ namespace FUMCFoodPantry.Pages.UserDatabase
 
     _context.UserApplications.Add(UserApplications);
     await _context.SaveChangesAsync();
-    return RedirectToPage("Pages/Index");
+    return RedirectToPage("/IDPage", new { id = UserApplications.MemberId });
 }
     }
 }

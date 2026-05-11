@@ -1,22 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\FUMCFoodPantry.csproj": {}
-  },
-  "projects": {
-    "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\FUMCFoodPantry.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\FUMCFoodPantry.csproj",
-        "projectName": "FUMCFoodPantry",
-        "projectPath": "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\FUMCFoodPantry.csproj",
-        "packagesPath": "C:\\Users\\westb\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\westb\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
     "/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj": {}
   },
   "projects": {
@@ -31,7 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/samcollier-tenison/.nuget/NuGet/NuGet.Config"
->>>>>>> origin/main
         ],
         "originalTargetFrameworks": [
           "net10.0"
