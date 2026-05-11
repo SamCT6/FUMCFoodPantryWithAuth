@@ -42,10 +42,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwbGljYXRpb25cVXNlckFwcGxpY2F0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fadek/csci340/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/CheckIn.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tJbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/fadek/csci340/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/CommunityLogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbXVuaXR5TG9nSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -88,10 +84,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/fadek/csci340/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/NewUserPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3VXNlclBhZ2UuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/fadek/csci340/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/OrderPage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/fadek/csci340/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/Pages/Privacy.cshtml]
