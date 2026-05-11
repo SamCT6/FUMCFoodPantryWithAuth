@@ -5890,11 +5890,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "/Users/samcollier-tenison/.nuget/packages/": {}
+=======
+    "C:\\Users\\westb\\.nuget\\packages\\": {}
+>>>>>>> origin/main
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
       "projectName": "FUMCFoodPantry",
       "projectPath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
@@ -5903,6 +5908,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/samcollier-tenison/.nuget/NuGet/NuGet.Config"
+=======
+      "projectUniqueName": "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\FUMCFoodPantry.csproj",
+      "projectName": "FUMCFoodPantry",
+      "projectPath": "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\FUMCFoodPantry.csproj",
+      "packagesPath": "C:\\Users\\westb\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\westb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> origin/main
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -5976,7 +5991,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
@@ -6399,7 +6414,11 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
       "message": "Problem reading the cache file /Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/obj/project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0."
+=======
+      "message": "Problem reading the cache file c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0."
+>>>>>>> origin/main
     },
     {
       "code": "NU1901",

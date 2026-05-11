@@ -89,7 +89,7 @@ namespace FUMCFoodPantry.Pages.UserDatabase
         [BindProperty]
         public List<string> SelectedHousehold { get; set; } = new();
 
-        public List<string> AvailableHousehold { get; set; } = new() { "Single Parent", "Adult Living Alone", "Disabled Household", "Milti-Generational Household"};
+        public List<string> AvailableHousehold { get; set; } = new() { "Single Parent", "Adult Living Alone", "Disabled Household", "Multi-Generational Household"};
 
         public async Task<IActionResult> OnPostAsync()
             {
