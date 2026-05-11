@@ -10,11 +10,12 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-FUMCFoodPantry-2a9d9466-d0dd-4eb9-b059-af3b014e2abe")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("FUMCFoodPantry")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5cdfdfb68f19c42c04b014bbf3e98839af0f9ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e072734a42fc4b6eab33ad042d0e1a014d5a1235")]
 [assembly: System.Reflection.AssemblyProductAttribute("FUMCFoodPantry")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FUMCFoodPantry")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
