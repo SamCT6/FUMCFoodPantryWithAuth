@@ -35,7 +35,6 @@
             <th>Quantity</th>
             <th>Rating (0‑5)</th>
             <th>Served</th>
-            <th>Date</th>
             <th class="text-center">Edit</th>
         </tr>
     </thead>
@@ -47,7 +46,6 @@
             <td>@item.Quantity</td>
             <td>@item.AverageRating</td>
             <td>@item.Served</td>
-            <td>@item.Date.ToShortDateString()</td>
             <td class="text-center">
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
             </td>
