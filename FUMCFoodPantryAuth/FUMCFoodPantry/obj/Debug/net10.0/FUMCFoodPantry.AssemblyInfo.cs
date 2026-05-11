@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FUMCFoodPantry")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b37b921cfe4fde11430ad208f6c3f31b09311732")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf7dac2e7c96e5838ca5d2cadc4f6c0eddf243bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("FUMCFoodPantry")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FUMCFoodPantry")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
