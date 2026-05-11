@@ -16,22 +16,21 @@
     <h1>@ViewData["Title"]</h1>
 </div>
 
-<div class="col text-center p-3">
-    <div class="mb-3">
-        <input type="firstName" placeholder="First Name">
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mx-auto text-center p-3">
+            <form method="post">
+                <div class="mb-3">
+                    <input asp-for="UserID" class="form-control" placeholder="Food Pantry ID #" />
+                    <span asp-validation-for="UserID" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <input type="submit" value="Log-In" class="btn btn-primary">
+                </div>
+            </form>
+            <a asp-page="/Application/UserApplication">Aren't registered with us? Click here to apply</a>
+            <a asp-page="/SpanishApplication/SpanishUserApplication">¿Aún no está registrado con nosotros? Haga clic aquí para solicitarlo.</a>
+        </div>
     </div>
-    <div class="mb-3">
-        <input type="lastName" placeholder="Last Name">
-    </div>
-    <div class="mb-3">
-        <input type="id" placeholder="Food Pantry ID #">
-    </div>
-    <div class="mb-3">
-        <input type="button" value="Log-In">
-    </div>
-    <a asp-page="/Application/UserApplication">Aren't registered with us? Click here to apply</a>
-    <div>    
-    <a asp-page="/SpanishApplication/SpanishUserApplication">¿Aún no está registrado con nosotros? Haga clic aquí para solicitarlo.</a>
-
-
+</div>
 </body>

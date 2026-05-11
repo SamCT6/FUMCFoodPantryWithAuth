@@ -5890,19 +5890,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\westb\\.nuget\\packages\\": {}
+    "/Users/samcollier-tenison/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\FUMCFoodPantry.csproj",
+      "projectUniqueName": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
       "projectName": "FUMCFoodPantry",
-      "projectPath": "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\FUMCFoodPantry.csproj",
-      "packagesPath": "C:\\Users\\westb\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\FinalProject\\FUMCFoodPantryWithAuth\\FUMCFoodPantryAuth\\FUMCFoodPantry\\obj\\",
+      "projectPath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/FUMCFoodPantry.csproj",
+      "packagesPath": "/Users/samcollier-tenison/.nuget/packages/",
+      "outputPath": "/Users/samcollier-tenison/Downloads/FUMCFoodPantryWithAuth/FUMCFoodPantryAuth/FUMCFoodPantry/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\westb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/samcollier-tenison/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -5976,7 +5976,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
